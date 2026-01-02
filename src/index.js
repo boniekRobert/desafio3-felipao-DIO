@@ -22,12 +22,13 @@ class Hero {
             case "monge":
                 typeAttack = "artes marciais";
                 break;
+                
             case "ninja":
                 typeAttack = "shuriken";
                 break;
             
             default:
-                typeAttack = "ataque desconhecido"
+                typeAttack = "ataque desconhecido";
         }
 
         console.log(`o ${this.type} atacou usando ${typeAttack}`);
